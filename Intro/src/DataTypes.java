@@ -10,6 +10,11 @@ public class DataTypes {
     double d=5464.36546543165;
 
 
+    double number=111.999;
+    int number2=2021;
+    boolean bool=true;
+    String word="Hello";
+    char alphabet='a';
 
     public void  printDataTypes(){
 
@@ -19,5 +24,13 @@ public class DataTypes {
         System.out.println(" float : "+f);
         System.out.println(" long : "+l);
         System.out.println(" double : "+d);
+        System.out.println(number);
+        System.out.println(bool);
+        System.out.println(word);
+        System.out.println(alphabet);
     }
+
+
+
+
 }
