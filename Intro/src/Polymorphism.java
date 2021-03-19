@@ -8,31 +8,25 @@ public class Polymorphism {
      * 4
      * */
 
-    /** method over riding
+    /**
+     * method over riding
      * same method name same parameters
      * differt class or subclass
-     * B = 1   */
+     * B = 1
+     */
 
-    public void add( int num1){  //same method name in polymorphism
-        System.out.println(num1+num1);
+    //method overloading
+    public void add(int num1) {  //same method name in polymorphism
+        System.out.println(num1 + num1);
     }
 
-    public void add( float num1){  //same method name in polymorphism
-        System.out.println(num1+num1);
+    public void add(float num1) {
+        System.out.println(num1 + num1);
     }
 
-    public void add(){
-
+    static int add(int a, int b) {
+        return a + b;
     }
-
-
-
-    public void add(int num1,int num2){
-        System.out.println(num1+num2);
-    }
-
-
-
-
-
 }
+
+
